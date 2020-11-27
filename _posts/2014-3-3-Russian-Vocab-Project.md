@@ -11,6 +11,8 @@ Taking a look at this enormous learning task -- the absorption of thousands of w
 
 So I wrote a program intended to serve as this optimal tool, automating as much of the learning process as possible.
 
+Find my project on GitHub [here](https://github.com/markdecl/Russian-Vocab-Project).
+
 # Learn in descending order of frequency:
 The first and simplest strategy to optimise study time is to focus on high-frequency words.
 Commonly, language learners are taught to write down and learn the words and phrases that they personally encounter when they read or listen to content in their target language.
