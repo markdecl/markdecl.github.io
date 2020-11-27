@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Russian Vocab Project
+title: Python and NLP 
 ---
 
 The number of words and phrases in a given language is overwhelming; it is impressive that a non-native speaker can become fluent in a foreign language at all.
@@ -26,13 +26,14 @@ However, a frequency list alone doesn’t give us enough data to make more detai
 
 <h1>Learn multiple meanings:</h1>
 The second principle of the system is to learn not individual words, but rather individual word meanings. This aims to account for the inherent semantic ambiguity of natural languages; the same word can have multiple different meanings, and that the correct meaning can only be determined from context. Take, for example, the multiple meanings of the English word squash:
-As a verb:
-She squashed the sandwich
-I squashed into the middle of the crowd
-The defeat squashed her high spirits
-As a noun:
-Orange squash
-The squash club
+* As a verb:
+  * She squashed the sandwich
+  * I squashed into the middle of the crowd
+  * The defeat squashed her high spirits
+* As a noun:
+  * Orange squash
+  * The squash club
+  
 From this, we see the necessity to learn multiple meanings, so that, for example, when a learner of English encounters 'squash' in a sentence, they understand the intended sense of the word in its context.
 To make this learning more precise and effective, my program calculates the frequency of each meaning of a given word, and labels the flashcard testing each meaning by its frequency. In this way, that flashcard can be ranked in the deck exactly according to its frequency. This accounts for the fact that some meanings of a word are significantly more common — and therefore more useful to learn — than others.
 
