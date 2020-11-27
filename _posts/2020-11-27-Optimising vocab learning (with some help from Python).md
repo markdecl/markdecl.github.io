@@ -15,7 +15,7 @@ Find my project on GitHub [here](https://github.com/markdecl/Russian-Vocab-Proje
 
 This post intends to outline the theory and thinking behind the project itself. Please get in touch if you have any thoughts or suggestions!
 
-# Learn in descending order of frequency:
+# 1. Learn in descending order of frequency:
 The first and simplest strategy to optimise study time is to focus on high-frequency words.
 Commonly, language learners are taught to write down and learn the words and phrases that they personally encounter when they read or listen to content in their target language.
 The issue with this approach is two-fold:
@@ -31,7 +31,7 @@ The simple solution to this is to learn in descending frequency order according 
 ## Start with a corpus
 However, a frequency list alone doesn’t give us enough data to make more detailed insights about word and phrase frequency. So instead, for my project I also needed a huge parallel corpus (a database of translated sentence pairs) that can be queried to find more granular data on individual word meanings and collocations (whose necessity will become clear further down this article).
 
-# Learn multiple meanings:
+# 2. Learn multiple meanings:
 The second principle of the system is to learn not individual words, but rather individual word meanings. This aims to account for the inherent semantic ambiguity of natural languages; the same word can have multiple different meanings, and that the correct meaning can only be determined from context. Take, for example, the multiple meanings of the English word squash:
 * As a verb:
   * *She **squashed** the sandwich*
@@ -44,7 +44,7 @@ The second principle of the system is to learn not individual words, but rather 
 From this, we see the necessity to learn multiple meanings, so that, for example, when a learner of English encounters 'squash' in a sentence, they understand the intended sense of the word in its context.
 To make this learning more precise and effective, my program calculates the frequency of each meaning of a given word, and labels the flashcard testing each meaning by its frequency. In this way, that flashcard can be ranked in the deck exactly according to its frequency. This accounts for the fact that some meanings of a word are significantly more common — and therefore more useful to learn — than others.
 
-# Learn collocations as well as individual words:
+# 3. Learn collocations as well as individual words:
 
 The third and final key tactic that I incorporated to boost the efficacy of vocab learning is to identify and learn idioms and collocations.  
 
