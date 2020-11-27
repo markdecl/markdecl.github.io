@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python and NLP 
+title: Optimising vocab learning (with some help from Python)?
 ---
 
 The number of words and phrases in a given language is overwhelming; it is impressive that a non-native speaker can become fluent in a foreign language at all.
