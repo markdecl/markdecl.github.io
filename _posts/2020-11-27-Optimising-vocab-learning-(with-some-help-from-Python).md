@@ -32,7 +32,7 @@ The simple solution to this is to learn in descending frequency order according 
 However, a frequency list alone doesn’t give us enough data to make more detailed insights about word and phrase frequency. So instead, for my project I also needed a huge parallel corpus (a database of translated sentence pairs) that can be queried to find more granular data on individual word meanings and collocations (whose necessity will become clear further down this article).
 
 # 2. Learn multiple meanings:
-The second principle of the system is to learn not individual words, but rather individual word meanings. This aims to account for the inherent semantic ambiguity of natural languages; the same word can have multiple different meanings, and that the correct meaning can only be determined from context. Take, for example, the multiple meanings of the English word squash:
+The second principle of the system is to learn not individual words, but rather individual word meanings. This aims to account for the inherent semantic ambiguity of natural languages; the same word can have multiple different meanings, and that the correct meaning can only be determined from context. Take, for example, the multiple meanings of the English word *squash*:
 * As a verb:
   * *She **squashed** the sandwich*
   * *I **squashed** into the middle of the crowd*
