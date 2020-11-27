@@ -23,7 +23,7 @@ The issue with this approach is two-fold:
 * Secondly, learning words in random order doesn’t take advantage of the huge law of diminishing returns when it comes to the frequency of words -- to the extent that learning a few high-frequency words can be just as useful as learning hundreds of low-frequency ones, sheerly because the former are far more likely to appear in speech and writing.
 
 This bar chart shows the exponential decrease in the frequency of each group of 100 words, starting at 500-600th most frequent words in Russian (words taken from Russian National Corpus frequency list, and their frequencies taken from a parallel corpus search):
-![Bar chart showing frequency of words in Russian, starting at 500th most frequent word](https://github.com/markdecl/markdecl.github.io/blob/master/_posts/Screenshot%202020-11-27%20144638.png)
+![Bar chart showing frequency of words in Russian, starting at 500th most frequent word](https://github.com/markdecl/markdecl.github.io/blob/master/images/Screenshot%202020-11-27%20144638.png)
 
 ## Start with a frequency list
 The simple solution to this is to learn in descending frequency order according to a frequency list of the whole language. These lists are calculated based on a huge corpus (body of texts) in the language. In my case, I used the one from the Russian National Corpus. Similar lists can be found online for any major language.
