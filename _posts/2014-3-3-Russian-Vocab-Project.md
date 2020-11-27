@@ -42,8 +42,10 @@ From this, we see the necessity to learn multiple meanings, so that, for example
 To make this learning more precise and effective, my program calculates the frequency of each meaning of a given word, and labels the flashcard testing each meaning by its frequency. In this way, that flashcard can be ranked in the deck exactly according to its frequency. This accounts for the fact that some meanings of a word are significantly more common — and therefore more useful to learn — than others.
 
 # Learn collocations as well as individual words:
+
+> Collocation  
+>   The habitual juxtaposition of a particular word with another word or words with a frequency greater than chance.
+
 The third and final key tactic that I incorporated to boost the efficacy of vocab learning is to identify and learn idioms and collocations:  
 
 All languages are more than just thousands of individual words, but rather, a huge set of common patterns. These patterns — or collocations — exist everywhere in natural language, because they are easy both to produce and to understand. The essence of it is that you will never sound fluent in a language unless you learn collocations. Think: “to do progress” versus “to make progress”, “in total daylight” versus “in broad daylight”, “to stimulate someone’s interest” versus “to pique someone’s interest”. These are the kinds of patterns that an advanced learner needs to know, without which they will forever sound markedly ‘foreign’.  
-
-This applies as much to strong collocations — discrete, fixed idioms such as  "beat around the bush" — as it does to weaker ones, such as "heavy rain”, "unsung hero" and "funnily enough".  
