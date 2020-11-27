@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Optimising vocab learning (with some help from Python)?
+title: Optimising vocab learning (with some help from Python)
 ---
 
 The number of words and phrases in a given language is overwhelming; it is impressive that a non-native speaker can become fluent in a foreign language at all.
@@ -12,6 +12,8 @@ Taking a look at this enormous learning task -- the absorption of thousands of w
 So I wrote a program intended to serve as this optimal tool, automating as much of the learning process as possible.
 
 Find my project on GitHub [here](https://github.com/markdecl/Russian-Vocab-Project).
+
+This post intends to outline the theory and thinking behind the project itself. Please get in touch if you have any thoughts or suggestions!
 
 # Learn in descending order of frequency:
 The first and simplest strategy to optimise study time is to focus on high-frequency words.
@@ -40,7 +42,7 @@ From this, we see the necessity to learn multiple meanings, so that, for example
 To make this learning more precise and effective, my program calculates the frequency of each meaning of a given word, and labels the flashcard testing each meaning by its frequency. In this way, that flashcard can be ranked in the deck exactly according to its frequency. This accounts for the fact that some meanings of a word are significantly more common — and therefore more useful to learn — than others.
 
 # Learn collocations as well as individual words:
-The third and final key tactic that I incorporated to boost the efficacy of vocab learning is to identify and learn idioms and collocations:
-All languages are more than just thousands of individual words, but rather, a huge set of common patterns. These patterns — or collocations — exist everywhere in natural language, because they are easy both to produce and to understand. The importance of collocational knowledge in language learning could be an entire blog post of its own, but the essence of it is that you will never sound fluent in a language unless you learn collocations. Think: “to do progress” versus “to make progress”, “in total daylight” versus “in broad daylight”, “to stimulate someone’s interest” versus “to pique someone’s interest”. These are the kinds of patterns that an advanced learner needs to know, without which they will forever sound markedly ‘foreign’.
-This applies as much to strong collocations — discrete, fixed idioms such as  "beat around the bush" — as it does to weaker ones, such as "heavy rain”, "unsung hero" and "funnily enough". 
+The third and final key tactic that I incorporated to boost the efficacy of vocab learning is to identify and learn idioms and collocations:  
+All languages are more than just thousands of individual words, but rather, a huge set of common patterns. These patterns — or collocations — exist everywhere in natural language, because they are easy both to produce and to understand. The essence of it is that you will never sound fluent in a language unless you learn collocations. Think: “to do progress” versus “to make progress”, “in total daylight” versus “in broad daylight”, “to stimulate someone’s interest” versus “to pique someone’s interest”. These are the kinds of patterns that an advanced learner needs to know, without which they will forever sound markedly ‘foreign’.  
+This applies as much to strong collocations — discrete, fixed idioms such as  "beat around the bush" — as it does to weaker ones, such as "heavy rain”, "unsung hero" and "funnily enough".  
 It is very difficult to know collocations without explicitly and deliberately learning them, because they are formed on the basis not of logical, predictable rules, but rather of repeated habits.
