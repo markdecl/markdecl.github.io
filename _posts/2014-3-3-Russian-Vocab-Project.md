@@ -11,20 +11,20 @@ Taking a look at this enormous learning task -- the absorption of thousands of w
 
 So I set about learning Python, and I wrote a program intended to serve as this optimal tool, automating as much of the learning process as possible, and saving students valuable time!
 
-<h1>Learn in descending order of frequency:</h1>
+# Learn in descending order of frequency:
 - The first and simplest strategy to optimise study time is to focus on high-frequency words.
 Commonly, language learners are taught to write down and learn the words and phrases that they personally encounter when they read or listen to content in their target language.
 The issue with this approach is two-fold:
 First, manually copying down words soaks up studying time which could be better spent actually learning new material.
 Secondly, learning words in random order doesn’t take advantage of the huge law of diminishing returns when it comes to the frequency of words -- to the extent that learning a few high-frequency words can be just as useful as learning hundreds of low-frequency ones, sheerly because the former are far more likely to appear in speech and writing.
 
-<h2>Start with a frequency list</h2>
+## Start with a frequency list
 The simple solution to this is to learn in descending frequency order according to a frequency list of the whole language. These lists are calculated based on a huge corpus (body of texts) in the language. In my case, I used the one from the Russian National Corpus. Similar lists can be found online for any major language.
 
-<h2>Start with a corpus</h2>
+## Start with a corpus
 However, a frequency list alone doesn’t give us enough data to make more detailed insights about word and phrase frequency. So instead, for my project I also needed a huge parallel corpus (a database of translated sentence pairs) that can be queried to find more granular data on individual word meanings and collocations (whose necessity will become clear further down this article).
 
-<h1>Learn multiple meanings:</h1>
+# Learn multiple meanings:
 The second principle of the system is to learn not individual words, but rather individual word meanings. This aims to account for the inherent semantic ambiguity of natural languages; the same word can have multiple different meanings, and that the correct meaning can only be determined from context. Take, for example, the multiple meanings of the English word squash:
 * As a verb:
   * She squashed the sandwich
@@ -37,7 +37,7 @@ The second principle of the system is to learn not individual words, but rather 
 From this, we see the necessity to learn multiple meanings, so that, for example, when a learner of English encounters 'squash' in a sentence, they understand the intended sense of the word in its context.
 To make this learning more precise and effective, my program calculates the frequency of each meaning of a given word, and labels the flashcard testing each meaning by its frequency. In this way, that flashcard can be ranked in the deck exactly according to its frequency. This accounts for the fact that some meanings of a word are significantly more common — and therefore more useful to learn — than others.
 
-<h1>Learn collocations as well as individual words:</h1>
+# Learn collocations as well as individual words:
 The third and final key tactic that I incorporated to boost the efficacy of vocab learning is to identify and learn idioms and collocations:
 All languages are more than just thousands of individual words, but rather, a huge set of common patterns. These patterns — or collocations — exist everywhere in natural language, because they are easy both to produce and to understand. The importance of collocational knowledge in language learning could be an entire blog post of its own, but the essence of it is that you will never sound fluent in a language unless you learn collocations. Think: “to do progress” versus “to make progress”, “in total daylight” versus “in broad daylight”, “to stimulate someone’s interest” versus “to pique someone’s interest”. These are the kinds of patterns that an advanced learner needs to know, without which they will forever sound markedly ‘foreign’.
 This applies as much to strong collocations — discrete, fixed idioms such as  "beat around the bush" — as it does to weaker ones, such as "heavy rain”, "unsung hero" and "funnily enough". 
