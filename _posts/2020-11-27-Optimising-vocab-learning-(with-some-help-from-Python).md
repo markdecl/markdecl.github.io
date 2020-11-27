@@ -41,7 +41,7 @@ The second principle of the system is to learn not individual words, but rather 
   * *Orange **squash***
   * *The **squash** club*
   
-From this, we see the necessity to learn multiple meanings, so that, for example, when a learner of English encounters 'squash' in a sentence, they understand the intended sense of the word in its context.
+From this, we see the necessity to learn multiple meanings, so that, for example, when a learner of English encounters *squash* in a sentence, they understand the intended sense of the word in its context.
 To make this learning more precise and effective, my program calculates the frequency of each meaning of a given word, and labels the flashcard testing each meaning by its frequency. In this way, that flashcard can be ranked in the deck exactly according to its frequency. This accounts for the fact that some meanings of a word are significantly more common — and therefore more useful to learn — than others.
 
 # 3. Learn collocations as well as individual words:
